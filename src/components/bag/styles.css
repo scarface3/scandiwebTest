@@ -1,0 +1,62 @@
+.bag__container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.bag__overlay {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: rgba(57, 55, 72, 0.22);
+    z-index: 5;
+    margin-left: -6.3125rem;
+}
+
+.bag__main {
+    position: absolute;
+    top: 0;
+    right: 4rem;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: fit-content;
+    z-index: 10;
+    background-color: #fff;
+    padding: 2rem 1rem ;
+    gap: 2rem;
+}
+
+.bag__top {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 2rem
+}
+
+.bag__head {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.bag__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.bag__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 2rem;
+    width: 100%;
+}

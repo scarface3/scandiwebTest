@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap');
+
+* {
+	font-size: 100%;
+	box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+ font-family: 'Raleway', sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  width: 100vw;
+
+
+
+  color: #1D1F22;
+}
+
+span, p{
+  margin: 0;
+  padding: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.--capitalize{
+    text-transform: capitalize;
+}
+
+.--textSmall{
+    font-size: 14px;
+}
+
+.--textBig{
+    font-size: 18px;
+}
+
+.--textLarge{
+    font-size: 24px;
+}
+
+.--textExtraLarge{
+    font-size: 30px;
+}
+
+.--light{
+    font-weight: 300;
+}
+
+.--bold{
+    font-weight: 500;
+}
+
+.--extrabold{
+    font-weight: 700;
+}

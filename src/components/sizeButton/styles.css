@@ -1,0 +1,31 @@
+.sizeButton__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 24px;
+    width: 24px;
+     background-color: #fff;
+    border: 1px solid #1d1f22;
+    color: #1d1f22;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-size: 14px;
+}
+
+.sizeButton__container.--big {
+    height: 45px;
+    width: 63px;
+}
+
+.sizeButton__container.--active {
+    background-color: #1d1f22;
+    border: 1px solid #1d1f22;
+    color: #fff;
+     box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+/* .button__container.--secondary:hover {
+   background-color: #fff;
+} */
