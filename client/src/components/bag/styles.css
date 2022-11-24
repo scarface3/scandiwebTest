@@ -1,0 +1,85 @@
+.bag__container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.bag__overlay {
+    position: fixed;
+    height: calc(100% - 80px);
+    width: 100%;
+    background: rgba(57, 55, 72, 0.22);
+    z-index: 5;
+    /* margin-left: -6.3125rem; */
+    top: 80px;
+    left: 0px;
+    margin-left: 0;
+}
+
+.bag__main {
+    position: absolute;
+    top: 80px;
+    right: 4rem;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 371px;
+    min-height: 439.5px;
+    z-index: 10;
+    background-color: #fff;
+    padding: 2rem 1rem;
+    gap: 2rem;
+    max-height: calc(100% - 100px);
+    overflow-y: auto;
+}
+
+.bag__empty {
+    width: 100%;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.bag__rotate {
+    transform: rotate(90deg);
+    font-size: 2rem;
+}
+
+.bag__top {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 2rem
+}
+
+.bag__head {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+}
+.bag__text{
+    margin-left: 4px;
+}
+.bag__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.bag__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 2rem;
+    width: 100%;
+}
